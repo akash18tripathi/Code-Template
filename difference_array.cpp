@@ -21,7 +21,7 @@ int main(){
         cin >> l >> r >> val;
 
         diff[l]+=val;
-        diff[r+1]+=val;
+        diff[r+1]-=val;
 
         q--;
     }
